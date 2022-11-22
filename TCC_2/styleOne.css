@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+ /* ---- Estilização de Header e Menu ---- */
+
+.logo{
+    background-color:#81a8db;
+    padding: 10px 10px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 8px 50px;
+    background-color: #004AAD;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 17px;
+    transition: all 0.2s ease 0.1s;
+}
+
+nav ul li a:hover{
+    background-color: #0b3674;
+}
+
+
+ /* ---- Estilização da Seção "textos expositivos"  ---- */
+
+ .conteiner1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+ .conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 80px;
+    font-size: large;
+    text-align: justify;
+} 
+
+.conteudo-imagem{
+    padding-left: 10px;
+}
+
+
+ /* ---- Estilização sa Seção "Testes (simulados)"  ---- */
+
+ .testes{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    background-color:#F1F1F1;
+}
+
+.testes img{
+    padding: 30px;
+}
+
+
+ /* ---- Estilização da Seção "Sobre nós"  ---- */
+
+.conteiner2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-escrito-sobrenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0px 80px 20px 80px;
+    font-size: large;
+    text-align: justify;
+}
+
+
+/* ---- Estilização do Footer  ---- */
+
+.main{
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    margin-top: 20px;
+    background-color: #004AAD;
+  
+}
+
+footer li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.ImagemFooter{
+    flex:1;
+    margin: 50px 0px 0px 20px;
+
+}
+
+.lado{
+    flex: 1;
+    padding: 60px;
+
+}
+.lado img{
+    padding: 10px;
+    width: 60px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 5px;
+    background-color: #0c2346;
+}
+
+
+/* ---- Estilização dos destaques  ---- */
+
+.destaque{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #95c3ff;
+    border-radius: 20px;
+}
+
+.destaque:hover{
+    background-color: #305c96;
+}
+
+
+a.destaque{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+
+.destaque2{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #95c3ff;
+    border-radius: 20px;
+}

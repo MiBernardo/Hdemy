@@ -1,0 +1,61 @@
+quizzer - hdemybanco
+
+questions - questoes
+
+question_number - questao_numero
+
+text(1) - questao_texto
+
+choices - alternativas
+
+is_correct - esta_correto
+
+text(2) - alternativa_texto
+
+
+
+criação do SQL = criar tabela "questoes" com "questao_numero" (id) INT Primary max.length 11
+"questao_texto" - TEXT
+
+criar tabela "alternativas" com "id" INT max length 11, question_number (é uma FK) INT length 11, esta_correto TINYINT maxlength 1
+alternativa_texto - TEXT
+
+
+
+current - atual
+
+database - banco
+
+add - adicionar
+
+
+
+correct_choice - alternativa_correta
+
+submit - enviar
+
+
+number - número
+
+question - questao
+
+result - resultado
+
+(variavel) - choices - alternativas
+
+(variavel) score - pontuacao
+
+(variavel) selected_choice - alternativa_selecionada
+
+(variavel) next - seguinte
+
+(variavel) row - coluna
+
+(variavel) correct_choice - alternativa_correta
+
+
+
+PROBLEMA - toda vez que reinicia o teste, a pontuacao não reinicia
+
+
+(variavel) insert_row - inserir_coluna

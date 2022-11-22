@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* ---- Estilização de Header ---- */ 
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#81a8db;
+    padding: 10px 10px;
+}
+
+header a{
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease 0.1s;
+}
+
+header a:hover{
+ background-color: #305c96;
+}
+
+
+li {
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+label{
+    display:inline-block;
+    font-family: 'Hind Siliguri', sans-serif;
+    width:180px;
+     
+}
+
+input[type='text']{
+    width:97%;
+    padding:4px;
+    border-radius:5px;
+    border:1px #ccc solid;
+}
+
+input[type='number']{
+    width:50px;
+    padding:4px;
+    border-radius:5px;
+    border:1px #ccc solid;
+}
+
+input[type='submit']{
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    background:#129212;
+    font-size: 16px;
+    font-family: 'Hind Siliguri', sans-serif;
+    border-radius: 10px;
+    border:1px solid rgb(255, 255, 255);
+    padding:6px 13px;
+}
+
+button{
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Hind Siliguri', sans-serif;
+    background:#12135e;
+    border-radius: 10px;
+    border:1px solid rgb(255, 255, 255);
+    padding: 6px 13px;
+}
+
+/* ---- Estilização do main e textos ---- */ 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 70px ;
+}
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.conteudo-texto-final{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* ---- Estilização da posição dos links ---- */ 
+
+.position-links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.links-questao{
+ display: flex;
+ justify-content: space-between;
+ padding-top: 20px;
+}
+
+
+/* ---- Estilização dos links ---- */ 
+
+a.start{
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    background:#12135e;
+    border-radius: 10px;
+    border:1px solid rgb(255, 252, 252);
+    padding:6px 13px;
+}
+
+a.finish{
+    display:inline-block;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    background:#12135e;
+    border-radius: 10px;
+    border:1px solid rgb(255, 255, 255);
+    padding:6px 13px;
+}
+
+a.adicionar{
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    background:#58599b;
+    border-radius: 10px;
+    border:1px solid rgb(255, 255, 255);
+    padding:6px 13px;
+}
+
+a.verificar{
+    display:inline-block;
+    color:rgb(255, 255, 255);
+    background:#12135e;
+    border-radius: 10px;
+    border:1px solid rgb(88, 88, 88);
+    padding:6px 13px;
+}
+
+.atual{
+    padding:10px;
+    background:#5e84af;
+    color: white;
+    border-radius: 10px;
+    border:r#7892b1 solid 1px;
+    margin:20px 0 10px 0;
+}
+
+#resposta{
+    padding-top: 20px;
+    color: rgb(21, 151, 4);
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width:960px) {
+    .container{
+        width:80%;
+    }
+}
+
+
+/* ---- Estilização footer ---- */ 
+
+
+.cop-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    background-color: #305c96;
+    text-align:center;  
+    padding-top:5px;
+}
+
+.cop-footer-ques{
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+    background-color: #305c96;
+    text-align:center;
+    margin-top: 30px;
+    padding-top:5px;
+}
